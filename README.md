@@ -30,8 +30,12 @@ one
 5
 ```
 
+To cancel input, enter a lone `→`.
+
 ## Limitations
 
 Does not handle `:Until` followed by `:AndIf`/`:OrIf`.
+
+Does not handle diamonds (`⋄`); use newlines instead.
 
 Errors are re-signalled with error number `500+⎕EN` and the code line will have the trap statement instead of the offending line.
