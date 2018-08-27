@@ -4,7 +4,7 @@
 ## Usage
 To activate, execute the following (were `<path>` is the location of MultiLine.dyalog):
 ```
-#.⎕TRAP∪⍨←⊂2 'E' '⎕THIS ⎕SE.MultiLine ⎕IO⊃1↓⎕DM⊣2⎕SE.⎕FIX'file://<path>/MultiLine.dyalog'
+#.⎕TRAP∪⍨←⊂2 'E' '⎕THIS ⎕SE.MultiLine ⎕IO⊃1↓⎕DM'⊣2⎕SE.⎕FIX'file://<path>/MultiLine.dyalog'
 ```
 You can now use multi-line input in the session, for example:
 ```
